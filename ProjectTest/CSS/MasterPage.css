@@ -1,0 +1,83 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #4F78C4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    background-color: #cccccc;
+    border-right: 4px solid coral;
+    align-items: center;
+    width: 12%;
+}
+
+.logo {
+    font-size: 400%;
+    font-weight: 800;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #005aff;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-bottom: 25%;
+}
+
+.menu-options {
+    height: 50%;
+    width: 100%;
+}
+
+    .menu-options ul {
+        padding: 0;
+        width: 100%;
+        list-style: none;
+    }
+
+        .menu-options ul li {
+            border-top: 2px solid #005aff;
+            width: 100%;
+            transition: .30s
+        }
+
+            .menu-options ul li.item-menu__last {
+                border-bottom: 2px solid #005aff;
+            }
+
+            .menu-options ul li a {
+                display: flex;
+                padding: 8%;
+                font-size: 100%;
+                font-weight: 600;
+                opacity: .9;
+                text-decoration: none;
+                align-items: center;
+            }
+
+                .menu-options ul li a:hover {
+                    background-color: #4F78C4;
+                    color: darkorange;
+                    padding: 10%;
+                }
+
+               .menu-options ul li a .icon {
+                    font-size: 28px;
+                    font-weight: 800;
+                }
+
+                .menu-options ul li a .txt-link {
+                    margin-left: 8%;
+                    font-size: 24px;
+                    letter-spacing: 3px;
+                }
